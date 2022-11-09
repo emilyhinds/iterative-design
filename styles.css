@@ -1,0 +1,115 @@
+body {
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* CSS HEX */
+    --purple: #562ABE;
+    --light-purple: #562ABE19;
+    --light-blue: #a8d5e2ff;
+    --orange-soda: #f85a3eff;
+    --green-yellow-crayola: #edeba0ff;
+    --midnight-green-eagle-green: #114b5fff;
+    --space-cadet: #212738ff;
+
+    /* background-image: linear-gradient(var(--purple), white); */
+    background-color: var(--light-purple);
+    color: var(--midnight-green-eagle-green);
+
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+h3 {
+    padding-left: 5%;
+}
+
+ul {
+    padding-left: 9%;
+    padding-right: 5%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+.figma-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 500px;
+    width: 700px;
+}
+
+.top-carousels, .bottom-carousels {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    margin: 1%;
+    /* justify-content: space-around; */
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel {
+    width: 400px;
+    margin: 2%;
+}
+
+.glyphicon {
+    color: rgba(70, 70, 70, 0.25);
+    stroke: rgb(70, 70, 70);
+}
+
+.carousel-indicators {
+    bottom: -5px;
+}
+
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+  
+.carousel-indicators .active {
+    background-color: #444;
+}
+
+.tasks-questions {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tasks {
+    margin-right: 1.5%;
+    max-width: 600px;
+}
+
+.questions {
+    margin-left: 1.5%;
+    padding-right: 2%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+video {
+    width: 400px;
+    margin: 2%;
+}
+
+#analysis {
+    margin-bottom: 3%;
+}
